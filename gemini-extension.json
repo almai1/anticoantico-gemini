@@ -1,0 +1,12 @@
+{
+  "name": "anticoantico",
+  "version": "1.0.0",
+  "description": "Search antiques, discover catalogue filters and find antique dealers on AnticoAntico.",
+  "mcpServers": {
+    "anticoantico": {
+      "httpUrl": "https://mcp.anticoantico.com/mcp",
+      "timeout": 60000,
+      "trust": false
+    }
+  }
+}
