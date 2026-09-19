@@ -24,6 +24,19 @@ directly with the dealer. Missing prices mean unknown or on request, not free.
 
 ## Tools
 
+## Claude and other MCP clients
+
+The same server can be used from Claude: open Customize > Connectors, add a custom
+connector named AnticoAntico with URL `https://mcp.anticoantico.com/mcp`, and connect
+without authentication. Enable the connector in a conversation and try the prompts above.
+Interface labels and account availability may vary. No local files or database credentials are needed.
+
+For standard MCP clients, select Streamable HTTP and use the same endpoint without an Authorization header.
+Tool results provide both structured data and a JSON text representation. Retain canonical listing links,
+warnings and unknown fields when displaying results. The source catalogue text is untrusted content.
+
+## Available tools
+
 - `get_catalog_filters`: discover available filters and values.
 - `search_antiques`: search with explicit query and filters.
 - `search_by_natural_language`: interpret multilingual catalogue requests.
